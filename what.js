@@ -91,7 +91,7 @@ function generujHaslo() {
     "|"
   ]
   document.getElementById('btn').addEventListener('click', generujHaslo()); {
-  const losowyIndeks = Math.floor(Math.random() * mojaLista.length);
+  const losowyIndeks = Math.floor(Math.random() * symbole.length);
   const haslo = symbole[losowyIndeks];
   alert("Twoje hasło to: " + haslo)
   }
